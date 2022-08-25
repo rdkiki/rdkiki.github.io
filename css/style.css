@@ -1,0 +1,234 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+body{
+	font-family: 'Syne', sans-serif;
+}
+
+header{
+	background: rgba(145, 145, 145, 0.24);
+	backdrop-filter: blur(4px);
+	margin: 0 auto;
+	width: 100%;
+	height: 56px;
+	position: fixed;
+	z-index: 100;
+}
+main{
+	height: 8000px;
+}
+
+footer{
+	background: rgba(145, 145, 145, 0.24);
+	backdrop-filter: blur(4px);
+	margin: 0 auto;
+	width: 100%;
+	height: 220px;
+}
+.logo{
+	height: 40px;
+}
+.nav{
+	height: 40px;
+}
+.logo img{
+	overflow: hidden;
+	height: 100%;
+	padding: 0 49px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li,a {
+	text-decoration: none;
+	color: #1f1f1f;
+	padding: 12px 24px;
+	font-weight: bold;
+	font-size: 1.3rem;
+	position: relative;
+}
+.sub-menu{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	font-size: 1rem;
+	display: none;
+}
+.sub-menu li a{
+	font-size: 1rem;
+}
+.nav li:hover .sub-menu{
+	display: block;
+	
+}
+.nav a:hover{
+	filter: blur(2px);
+}
+.banner{
+	background-image: url("../img/684042149237907.62e3a479b16f4.gif");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 1000px;
+	background-attachment: scroll;
+}
+.content-banner{
+	margin: 500px 0;
+	position: absolute;
+	font-size: 2.3rem;
+	width: 0px;
+	font-weight: bolder; 
+	transition: 0.3s;
+}
+.content-banner h1{
+	overflow: hidden;
+}
+body:hover .content-banner{
+	width: 1440px;
+}
+.identity{
+	height: 1000px;
+	position: relative;
+}
+.content-identity{
+	margin: 36px 0px;
+	font-size: 2.3rem;
+	font-weight: bolder; 
+	color: #003DFE;
+}
+.wanted-img{
+	background: url("../img/image 55.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+.wanted-content{
+	background:rgba(145, 145, 145, 0.24);
+	backdrop-filter: blur(5px);
+	width: 660px;
+	height: 500px;
+	position: absolute;
+	padding: 48px;
+	right: 0px;
+	bottom: 270px;
+	border-radius: 40px;
+	color: #003DFE;
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+.wanted-content p{
+	margin: 12px 10px;
+}
+.wanted-img-2{
+	background:url("../img/af56e9149237907.62e39dc8966ff.gif"),#E2E2E2;
+	background-size: contain;
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.wanted-img-3{
+	background: url("../img/identity-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 720px;
+	background-attachment: scroll;
+}
+.wanted-img-4{
+	background: url("../img/identity-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 720px;
+	background-attachment: scroll;
+}
+.wanted-img-5{
+	background: url("../img/e93e9a149237907.62e3a479b10f6.gif");
+	background-size: contain;
+	height: 77.4px;
+	background-attachment: scroll;
+}
+.character{
+	height: 1000px;
+}
+.char-img-1{
+	background: url("../img/image 21.png");
+	background-size: cover;
+	height: 500px;
+	background-attachment: scroll;
+}
+.char-img-2{
+	background: url("../img/image 20.png");
+	background-size: contain;
+	height: 1000px;
+	background-attachment: scroll;
+}
+.char-img-3{
+	background: url("../img/image 22.png");
+	background-size: contain;
+	height: 1000px;
+	background-attachment: fixed;
+}
+.char-content{
+	background: rgba(247,9,254,1.00);
+	text-align: center;
+	color:#003DFE ;
+	font-size: 2.3rem;
+/*	text-transform: uppercase;*/
+	margin: 48px 0;
+	font-weight: bolder
+}
+.cat-img-1{
+	background: url("../img/image 43.png");
+	background-size: contain;
+	height: 572px;
+	background-attachment: scroll;
+}
+.cat-img-2{
+	background: url("../img/image 58.png");
+	background-size: contain;
+	height: 572px;
+	background-attachment: scroll;
+}
+.cat-img-3{
+	background: url("../img/image 38.png");
+	background-size: cover;
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.cat-img-4{
+	background: url("../img/52019d139168569.6233f99ee0a1f.gif");
+	background-size: contain;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	position: relative;
+}
+.bye{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+footer ul{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
